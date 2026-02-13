@@ -1,0 +1,127 @@
+ <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(204, 157, 157);
+        }
+
+        h2 {
+            color: darkblue;
+        }
+
+        h3 {
+            color: darkgreen;
+        }
+
+        p {
+            color: #968585;
+        }
+
+       
+        .header-principal {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav-lista {
+            list-style: none;
+            padding: 0;
+        }
+
+        .nav-lista li {
+            display: inline;
+            margin: 10px;
+        }
+
+        .nav-lista a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-lista a:hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        .seccion {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border: 2px solid #444;
+            box-shadow: 3px 3px 10px rgb(0, 0, 0);
+        }
+
+        .articulo {
+            border: 2px dotted blue;
+            padding: 15px;
+        }
+
+        .imagen-grande {
+            width: 250px;
+            border: 3px solid black;
+        }
+
+        .imagen-secundaria {
+            width: 200px;
+            border: 3px solid green;
+        }
+
+        .resaltado {
+            text-decoration: underline;
+            color: rgb(126, 25, 0);
+        }
+
+        .formulario input {
+            display: block;
+            margin-bottom: 10px;
+            border: 1px solid black;
+        }
+
+        .formulario button {
+            background-color: rgb(138, 23, 23);
+            color: white;
+            border-radius: 10px;
+            padding: 8px;
+        }
+
+        .formulario button:hover {
+            background-color: black;
+        }
+
+        
+        #fondo-cambiante {
+            background-color: #e0e0e0;
+        }
+
+       
+        @media (max-width: 700px) {
+            #fondo-cambiante {
+                background-color: lightblue;
+            }
+        }
+
+        @media (max-width: 300px) {
+            #fondo-cambiante {
+                background-color: pink;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .ocultable {
+                display: none;
+            }
+        }
+
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #222;
+            color: white;
+        }
+    </style>
